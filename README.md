@@ -19,7 +19,7 @@ library(class)
 ```
 
 ```{r}
-mlb_pitchers <- read.csv(file = "//vdi-fileshare01/UEMprofiles/025437033/Desktop/Stat 473/DataSets/MLBPitching_2012to2022.csv", sep = ",", header = TRUE, fileEncoding = "LATIN1")
+mlb_pitchers <- read.csv(file = "{file.path}.csv", sep = ",", header = TRUE, fileEncoding = "LATIN1")
 
 #View(mlb_pitchers)
 
