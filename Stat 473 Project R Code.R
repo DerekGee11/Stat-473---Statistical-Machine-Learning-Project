@@ -65,9 +65,6 @@ plot(perf, main = "ROC Curve for LDA")
 abline(0, 1, lty = 3)
 ```
 
-- This is a very unbalanced data set because 2% of pitchers in the training set having a chance at winning the Cy Young over 98% of pitchers not having a chance at winning
-
-
 
 #### Fitting QDA 
 
